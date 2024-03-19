@@ -79,7 +79,7 @@ class _RegisterScreenState extends State<RegisterScreen> {
                     onPressed: () {
                       Navigator.push(
                         context,
-                        MaterialPageRoute(builder: (context) => BlogPage()),
+                        MaterialPageRoute(builder: (context) => AdvertisementScreen()),
                       );
                     },
                     child: Text('Register'),
